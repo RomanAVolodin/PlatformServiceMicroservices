@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using CommandsService.Dtos;
 using CommandsService.Models;
-
+using PlatformService.Protos;
 
 namespace CommandsService.Profiles
 {
@@ -16,6 +16,9 @@ namespace CommandsService.Profiles
 
             CreateMap<PlatformPublishedDto, Platform>()
                 .ForMember(dest => dest.ExternalID, opt => opt.MapFrom(src => src.Id));
+
+            CreateMap<GrpcPlatformModel, Platform>()
+                .ForMember(dest => dest.ExternalID, opt => opt.MapFrom(src => src.PlatformId));
         }
     }
 }

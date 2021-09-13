@@ -1,11 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "ssqZsba8aBWulavgcRYJC0dUrgTL5H5zK0hb4V35C0EaGE9iysIME0fLJDLKXWlzWhCtANFhJr4XS/cT/iq/Nw==",
+  "dgSpecHash": "MbmHp/uFR8hf1eYqges8N7lfixYVfAETTwob+FBjnvQ0qXDGiShE5Zz124ej3rxQ6RuH4h6HKU19f+fxAkLqww==",
   "success": true,
   "projectFilePath": "C:\\Users\\1\\Documents\\E3\\CommandsService\\CommandsService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\1\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\1\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "C:\\Users\\1\\.nuget\\packages\\google.protobuf\\3.17.3\\google.protobuf.3.17.3.nupkg.sha512",
+    "C:\\Users\\1\\.nuget\\packages\\grpc.core.api\\2.39.1\\grpc.core.api.2.39.1.nupkg.sha512",
+    "C:\\Users\\1\\.nuget\\packages\\grpc.net.client\\2.39.0\\grpc.net.client.2.39.0.nupkg.sha512",
+    "C:\\Users\\1\\.nuget\\packages\\grpc.net.common\\2.39.0\\grpc.net.common.2.39.0.nupkg.sha512",
+    "C:\\Users\\1\\.nuget\\packages\\grpc.tools\\2.40.0\\grpc.tools.2.40.0.nupkg.sha512",
     "C:\\Users\\1\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\1\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\1\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\PlatformServiceMicroservices",
+    "\\PlatformServiceMicroservices\\Dtos",
+    "\\PlatformServiceMicroservices\\Migrations",
+    "\\PlatformServiceMicroservices\\Models",
+    "\\PlatformServiceMicroservices\\Profiles",
+    "\\PlatformServiceMicroservices\\Properties",
+    "\\PlatformServiceMicroservices\\Protos",
+    "\\PlatformServiceMicroservices\\SuncDataServices",
+    "\\PlatformServiceMicroservices\\SuncDataServices\\Http"
+  ],
+  "PreviewInSolutionExplorer": false
+}

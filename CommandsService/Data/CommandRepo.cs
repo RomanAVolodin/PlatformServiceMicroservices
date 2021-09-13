@@ -17,7 +17,7 @@ namespace CommandsService.Data
 
         public void CreateCommand(int platformId, Command command)
         {
-            if (command != null)
+            if (command == null)
             {
                 throw new ArgumentNullException(nameof(command));
             }
@@ -27,12 +27,17 @@ namespace CommandsService.Data
 
         public void CreatePlatform(Platform plat)
         {
-            if (plat != null)
+            if (plat == null)
             {
                 throw new ArgumentNullException(nameof(plat));
             }
 
             _context.Platforms.Add(plat);
+        }
+
+        public bool ExternalPlatformExists(int externalPlatformId)
+        {
+            return _context.Platforms.Any(p => p.ExternalID == externalPlatformId);
         }
 
         public IEnumerable<Platform> GetAllPlatforms()
